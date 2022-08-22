@@ -1,0 +1,12 @@
+use car
+1.db.carCollections.find({car_color:"Pink",gender:"Male"})
+2.db.carCollections.find({$nor:[{car_color:"Pink",gender:"Female"},{car_color:"Blue",gender:"Female"}]})
+3.db.carCollections.find({purchase_year:1998,gender:"Male"})
+4.db.carCollections.find({purchase_year:1985,gender:"Female",car_color:"Yellow"})
+5.
+6.db.carCollections.find({purchase_year:2001,country:"India"})
+7.
+8.db.carCollections.find({gender:"Female",country:"India",car_color:"Blue"})
+9.
+10.
+ 
