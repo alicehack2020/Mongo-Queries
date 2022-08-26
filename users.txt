@@ -1,0 +1,10 @@
+1.db.userCollection.find({gender:"Female"})
+2.db.userCollection.find({})
+3.
+4.db.userCollection.find({shirt_size:"S"})
+5.db.userCollection.find({shirt_size:"XL",gender:"Female"})
+6.
+7.
+8.
+9.db.collections.find({$or:[{language:"Hindi"},{language:"Punjabi"},{language:"Bengali"},{language:"Gujarathi"},{language:"Tamil"},{language:"Malayalam"}]})
+10.db.userCollection.find({gender:"Male",language:"Korean"})
