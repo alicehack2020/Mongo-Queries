@@ -1,0 +1,11 @@
+1.db.studetCollections.find({gender:"Female"})
+2.db.studentCollections.find({$and:[{gender:"Male"},{math}}]})
+3.db.augCollection.find({age:{$gt:25}})
+
+4.
+5.
+6.
+7.
+8.
+9.
+10
